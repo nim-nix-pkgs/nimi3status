@@ -11,11 +11,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1647058751,
-        "narHash": "sha256-+np4xm7n5yV4JEbeNQSALGMDpuYqFj5orf2CvArowZQ=",
+        "lastModified": 1647112349,
+        "narHash": "sha256-vdUJVW5pda0QGn8pdCoF+hDKwhqVlPy4V5cvEn/vxvI=",
         "owner": "nim-nix-pkgs",
         "repo": "colorsys",
-        "rev": "2607d4bb8c8900833237b865f47fba155896266d",
+        "rev": "0ff67a7451f45648bacdb6c12c17771931fb7a73",
         "type": "github"
       },
       "original": {
@@ -38,13 +38,20 @@
         "src-colorsys-master": "src-colorsys-master"
       },
       "locked": {
-        "narHash": "sha256-Z3g+8fV0bzoXuPz2CdCbxD0TDh49qAFDoefO9VAkZBo=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647112349,
+        "narHash": "sha256-vdUJVW5pda0QGn8pdCoF+hDKwhqVlPy4V5cvEn/vxvI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "colorsys",
+        "rev": "0ff67a7451f45648bacdb6c12c17771931fb7a73",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "colorsys",
+        "type": "github"
       }
     },
     "flakeNimbleLib": {
