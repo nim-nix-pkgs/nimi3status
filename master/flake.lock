@@ -1,0 +1,134 @@
+{
+  "nodes": {
+    "colorsys": {
+      "inputs": {
+        "colorsys-master": "colorsys-master",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647934114,
+        "narHash": "sha256-PVCfuGpah9ys+vc4PXgy63X5pbPYr4bcTU7kq6z7Bl4=",
+        "owner": "nim-nix-pkgs",
+        "repo": "colorsys",
+        "rev": "d682983310436ce3f234b716d0c3eb5e01c51b08",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "colorsys",
+        "type": "github"
+      }
+    },
+    "colorsys-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "colorsys",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "colorsys",
+          "nixpkgs"
+        ],
+        "src-colorsys-master": "src-colorsys-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647934114,
+        "narHash": "sha256-PVCfuGpah9ys+vc4PXgy63X5pbPYr4bcTU7kq6z7Bl4=",
+        "owner": "nim-nix-pkgs",
+        "repo": "colorsys",
+        "rev": "d682983310436ce3f234b716d0c3eb5e01c51b08",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "colorsys",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "colorsys": "colorsys",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-nimi3status-master": "src-nimi3status-master"
+      }
+    },
+    "src-colorsys-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1497488979,
+        "narHash": "sha256-27VM5bGveaDVCf5fIhdGCM/seCuuiLDf3VNCSWQGks0=",
+        "owner": "achesak",
+        "repo": "nim-colorsys",
+        "rev": "b466a504242b4a91eec6fd61e8d6ff14417e5779",
+        "type": "github"
+      },
+      "original": {
+        "owner": "achesak",
+        "ref": "refs/heads/master",
+        "repo": "nim-colorsys",
+        "type": "github"
+      }
+    },
+    "src-nimi3status-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1565649001,
+        "narHash": "sha256-kxa0FIwJ68+NAUlUgp1Pr2tpZPpSc80Ee8/JRWkcMlg=",
+        "owner": "FedericoCeratto",
+        "repo": "nimi3status",
+        "rev": "8f070be9c8dee0388feaebc2c9af7af0bf3a0e4d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "FedericoCeratto",
+        "ref": "refs/heads/master",
+        "repo": "nimi3status",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
