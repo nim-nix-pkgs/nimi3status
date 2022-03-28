@@ -11,7 +11,6 @@
   inputs.src-nimi3status-master.ref   = "refs/heads/master";
   inputs.src-nimi3status-master.owner = "FedericoCeratto";
   inputs.src-nimi3status-master.repo  = "nimi3status";
-  inputs.src-nimi3status-master.dir   = "";
   inputs.src-nimi3status-master.type  = "github";
   
   inputs."colorsys".owner = "nim-nix-pkgs";
